@@ -17,9 +17,12 @@ In small online retail businesses, managing order dispatches, deliveries, and re
 * Persistent data storage using file handling.
 
 ## Build and Run Instructions
-**Prerequisites:** GCC compiler, Make, Google Test (gTest)
+**Prerequisites:** GCC compiler (TDM-GCC for Windows), Make, Google Test (gTest)
 
-* **Build:** `make all`
-* **Run:** `make run`
-* **Test:** `make test`
-* **Clean:** `make clean`
+**For Windows Environments:**
+* **Build:** `mingw32-make all`
+* **Run:** `mingw32-make run`
+* **Test:** `mingw32-make test`
+* **Clean:** `mingw32-make clean`
+
+*(Note: On Linux/Mac standard environments, substitute `mingw32-make` with `make`)*
